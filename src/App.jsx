@@ -31,7 +31,7 @@ const App = () => {
           <li key={index}>
             {todo.done ? `Task Completed - ${todo.text}` : todo.text}
           </li>
-        )};
+        )}
       </ul>
     </>
   );
